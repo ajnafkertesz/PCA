@@ -1,7 +1,7 @@
 ---
 title: "PCA Package"
 output: 
-html_document:
+ html_document:
    toc: true
    toc_float: true
 theme: lumen
@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
 )
+
 ```
 
 ```{r setup}
@@ -392,7 +393,7 @@ wdbc_plot+labs(title = "PCA of yield contributing parameters")
 
 ```
 
-## Using factoMineR and factoextra
+## Using FactoMineR and factoextra
 
 Another way to visualize PCA is by using the factoextra package. The FactoMineR package can do PCA for you, and the factoextra package is useful in extracting components of the PCA analysis done by the FactoMineR package. Let's explore the functions from these packages with the WDBC dataset.
 
@@ -408,5 +409,4 @@ fviz_pca_ind(wdbc.facoPCA) #fviz_pca_var(wdbc.facoPCA): Visualize the results in
 fviz_pca_biplot(wdbc.facoPCA) #Make a biplot of individuals and variables.
 ```
  
-
 
