@@ -54,7 +54,7 @@ The process of PCA can be broken down to 5 steps
 
 Let's start by loading in the needed packages and datasets for this analysis. One package you might not be familiar with is the caret package, which has the findcorrelation() function. This function allows us to remove highly correlated predictors. 
 
-```{r setup, echo=TRUE, warning=FALSE, message=FALSE}
+```{r echo=TRUE, warning=FALSE, message=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse)
