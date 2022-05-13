@@ -13,3 +13,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://github.com/ajnafkertesz/PCA
+BugReports: https://github.com/ajnafkertesz/PCA/issues
